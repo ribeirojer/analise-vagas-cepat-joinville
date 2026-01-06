@@ -1,0 +1,204 @@
+
+
+
+
+ Código  | CBO    | Nome da Vaga                        | Nº Vagas | Escolaridade           | Experiência (meses) | Salário        | Bairro               |
+---------|--------|-----------------------------------|----------|-----------------------|---------------------|----------------|----------------------|
+ 8303455 | 848510 | Ajudante de açougueiro* (supermercado) | 2        | Fundamental Completo  | 6 / Inf.            | R$ 2.115,00    | America              |
+ 8296812 | 715615 | Ajudante de eletricista            | 1        | Ensino Médio Completo | 6                   | R$ 1.778,00    | Fatima               |
+ 8303478 | 521140 | Atendente de padaria* (supermercado) | 1        | Fundamental Completo  | 6 / Inf.            | R$ 2.115,00    | America              |
+ 8294329 | 411005 | Auxiliar administrativo (CNHB)    | 1        | Curso Técnico         | 6                   | R$ 2.500,00    | Santo Antônio        |
+ 8299030 | 421310 | Auxiliar de cobranças jurídicas*  | 20       | Ensino Médio Completo | 0                   | Não Informado  | Atiradores           |
+ 8288599 | 513505 | Auxiliar de cozinha                | 2        | Não exigida           | 6 / Inf.            | R$ 1.800,00    | Floresta             |
+ 8300647 | 514320 | Auxiliar de limpeza                | 2        | Não exigida           | 0                   | R$ 1.932,00    | Atiradores           |
+ 8302070 | 514320 | Auxiliar de limpeza                | 1        | Fundamental Completo  | 0                   | R$ 1.900,00    | Jardim Sofia         |
+ 8299545 | 514320 | Auxiliar de limpeza (6X1)          | 2        | Fundamental Incompleto| 3 / Inf             | R$ 1.970,00    | Zona Industrial Norte|
+ 8296838 | 784205 | Auxiliar de linha de produção      | 3        | Fundamental Completo  | 6                   | R$ 1.775,28    | Nova Brasilia        |
+ 8299176 | 414140 | Auxiliar de logística              | 1        | Ensino Médio Completo | 3                   | R$ 2.000,00    | Gloria               |
+ 8290531 | 514310 | Auxiliar de manutenção de edificações | 5        | Fundamental Completo  | 6 / Inf.            | R$ 1.845,00    | Zona Industrial Norte|
+ 8289363 | 513505 | Auxiliar de padeiro                | 1        | Ensino Médio Completo | 6                   | R$ 1.900,00    | Jardim Sofia         |
+ 8291675 | 413110 | Auxiliar financeiro               | 1        | Superior Completo     | 6 / Inf.            | R$ 3.290,85    | Anita Garibaldi      |
+ 8292158 | 513505 | Auxiliar nos serviços de alimentação | 8        | Ensino Médio Completo | 6                   | R$ 2.100,00    | Bucarein             |
+ 8294975 | 514205 | Coletor de lixo (temporária)       | 5        | Não exigida           | 0                   | R$ 1.700,00    | Centro               |
+ 8302485 | 414215 | Conferente de carga e descarga      | 3        | Fundamental Completo  | 6                   | R$ 1.934,63    | Floresta             |
+
+
+
+
+
+
+
+ Código 1 | Código 2 | Cargo                                           | Qtde | Escolaridade               | Horas | Salário        | Local                   |
+----------|----------|------------------------------------------------|------|---------------------------|-------|----------------|-------------------------|
+ 8293550  | 513205   | Cozinheiro de restaurante                       | 2    | Não exigida               | 6 / Inf. | Não Informado  | Santo Antônio           |
+ 8296806  | 715615   | Eletricista de instalações                       | 1    | Curso Técnico             | 6     | R$ 2.541,00    | Fatima                  |
+ 8299183  | 411005   | Estagiário de Escrituriário – estágio de nível médio | 4 | Ensino Médio Incompleto    | 0     | Não Informado  | Atiradores              |
+ 8302640  | 414125   | Estoquista*                                     | 6    | Não exigida               | 0     | R$ 2.115,00    | Rio Bonito (Pirabeiraba)|
+ 8287311  | 414110   | Fiel de depósito (temporária)*                  | 20   | Fundamental Incompleto    | 0     | R$ 2.121,00    | Pirabeiraba             |
+ 8304549  | 414110   | Fiel de depósito*                               | 4    | Ensino Médio Completo     | 6 / Inf. | R$ 2.121,00   | Zona Industrial Norte   |
+ 8295456  | 622010   | Jardineiro                                      | 1    | Fundamental Completo      | 6 / Inf. | Não Informado | Saguaçu                 |
+ 8298312  | 725505   | Montador de automóveis                          | 1    | Não exigida               | 6 / Inf. | R$ 2.850,00   | Costa e Silva           |
+ 8302657  | 782310   | Motorista entregador                            | 2    | Ensino Médio Completo     | 3/inf  | R$ 2.036,00   | Rio Bonito (Pirabeiraba)|
+ 8302421  | 782310   | Motorista entregador (CNH D)                    | 3    | Fundamental Completo      | 6     | R$ 2.237,00    | Floresta                |
+ 8288374  | 784205   | Operador de produção (artefatos de concreto)   | 5    | Fundamental Completo      | 0     | R$ 1.922,14    | Zona Industrial Norte   |
+ 8305079  | 784205   | Operador de produção (paver, lajotas e tubos de concreto) | 10 | Fundamental Completo  | 3/inf  | R$ 1.778,00   | Itinga/Araquari         |
+ 8299289  | 421125   | Operador de caixa (verdureira)                   | 3    | Fundamental Completo      | 0     | R$ 2.140,00    | Santo Antônio           |
+ 8288935  | 782220   | Operador de empilhadeira (CNH B)                 | 2    | Não exigida               | 6     | R$ 2.419,96    | Boa Vista               |
+ 8287473  | 782220   | Operador de empilhadeira retrátil (temporária) CNH B | 20 | Ensino Médio Completo | 6     | R$ 2.348,00    | Pirabeiraba             |
+ 8299937  | 721430   | Operador de torno com comando numérico           | 1    | Ensino Médio Completo     | 6     | R$ 2.488,20    | Itinga/Araquari         |
+ 8296536  | 519935   | Polidor de automóveis                             | 1    | Não exigida               | 6 / Inf. | R$ 2.600,00   | Costa e Silva           |
+ 8296749  | 717020   | Servente de obras                                 | 5    | Não exigida               | 0     | R$ 1.778,00    | Anita Garibaldi         |
+ 8302714  | 717020   | Servente de obras (diversos bairros)             | 10   | Não exigida               | 0     | R$ 1.817,55    | Centro                  |
+ 8301047  | 717020   | Servente de obras (auxiliar de topografia)       | 1    | Não exigida               | 3     | R$ 2.350,50    | Costa e Silva           |
+ 8302845  | 521110   | Vendedor interno (Tele vendas)                    | 10   | Ensino Médio Completo     | 3/inf  | R$ 2.115,00    | Rio Bonito (Pirabeiraba)|
+ 8289380  | 354145   | Vendedor pracista (CNH B)                         | 1    | Ensino Médio Completo     | 6     | R$ 2.500,00    | Bucarein                |
+
+
+
+
+
+ CÓDIGO | CBO | NOME DA VAGA                                      | Nº VAGAS | ESCOLARIDADE           | EXP MESES | SALÁRIO     | BAIRRO                    |
+--------|-----|--------------------------------------------------|----------|-----------------------|-----------|-------------|---------------------------|
+ 8276045 | 783225 | Ajudante de carga e descarga de mercadoria         | 8        | Fundamental Completo  | 0         | R$ 1.881,00 | Zona Industrial Norte     |
+ 8284493 | 783225 | Ajudante de carga e descarga de mercadoria         | 5        | Fundamental Completo  | 6         | R$ 1.800,00 | São Marcos                |
+ 8251012 | 513505 | Ajudante de cozinha                                 | 1        | Não exigida           | 0         | Não Informado| Pirabeiraba               |
+ 8258123 | 513505 | Ajudante de cozinha                                 | 2        | Fundamental Incompleto| 3/inf     | R$ 1.725,00 | Zona Industrial Norte     |
+ 8254991 | 716610 | Ajudante de pintor                                  | 1        | Não exigida           | 6         | R$ 1.778,00 | Fátima                    |
+ 8282807 | 717020 | Ajudante de saneamento                              | 3        | Não exigida           | 3         | R$ 1.949,93 | Pirabeiraba               |
+ 8245234 | 992105 | Alinhador de pneus                                  | 1        | Não exigida           | 6         | Não Informado| America                   |
+ 8268383 | 252715 | Analista de logística (CNH B)                       | 1        | Curso Técnico         | 6 / Inf   | R$ 2.500,00 | America                   |
+ 8253544 | 252405 | Analista de recursos humanos                         | 1        | Superior Completo     | 6         | Não Informado| Jardim Sofia              |
+ 8280190 | 715315 | Armador de ferragens na construção civil            | 4        | Não exigida           | 6         | R$ 2.541,00 | Santa Catarina            |
+ 8274182 | 513440 | Atendente de cafeteria                               | 1        | Não exigida           | 0         | R$ 1.932,00 | Bucarein                  |
+ 8243725 | 414125 | Auxiliar de estoque (carga e descarga)              | 4        | Ensino Médio Incompleto| 6        | R$ 2.120,00 | Rio Bonito (Pirabeiraba)  |
+ 8277483 | 514320 | Auxiliar de limpeza (com veículo próprio e residir no Itinga ou Araquari) | 1 | Fundamental Incompleto | 6   | R$ 3.150,00 | Itinga                    |
+ 8283871 | 514320 | Auxiliar de limpeza panificadora                     | 1        | Fundamental Completo  | 6 / Inf   | R$ 1.744,60 | Iririú                    |
+ 8170111 | 784205 | Auxiliar de linha de produção                        | 4        | Fundamental Completo  | 0         | R$ 1.865,00 | Pirabeiraba               |
+ 8258081 | 784205 | Auxiliar de linha de produção                        | 25       | Fundamental Completo  | 3         | R$ 2.032,80 | Zona Industrial Norte     |
+ 8153218 | 784205 | Auxiliar de linha de produção (madeireira)          | 10       | Não exigida           | 6 / Inf   | R$ 1.850,00 | Pirabeiraba               |
+ 8279007 | 784205 | Auxiliar de linha de produção (alimentação)          | 1        | Ensino Médio Completo | 6         | Não Informado| Bom Retiro                |
+ 8258093 | 514310 | Auxiliar de manutenção predial                        | 1        | Fundamental Completo  | 3 / inf   | R$ 1.978,27 | Saguaçu                   |
+ 8281358 | 771105 | Auxiliar de marceneiro                                | 3        | Ensino Médio Completo | 6         | Não Informado| Floresta                  |
+ 8064870 | 374110 | Auxiliar de montagem de cobertura metálica           | 1        | Não exigida           | 0         | R$ 1.778,00 | não fixo                  |
+ 8282861 | 717020 | Auxiliar de pedreiro                                  | 10       | Não exigida           | 3         | R$ 1.949,93 | Pirabeiraba               |
+
+
+
+
+
+ CÓDIGO  | CBO    | NOME DA VAGA                                     | Nº VAGAS | ESCOLARIDADE                      | EXP. MESES | SALÁRIO         | BAIRRO                  |
+---------|--------|-------------------------------------------------|----------|----------------------------------|------------|-----------------|-------------------------|
+ 8279269 | 784205 | Auxiliar de produção de ração (veículo próprio) | 2        | Fundamental Incompleto           | 0          | R$ 2.300,00     | Rio Bonito (Pirabeiraba)|
+ 8245793 | 715615 | Auxiliar eletricista de sistemas de controle de automação residencial | 1 | Ensino Médio Completo | 6 / Inf. | R$ 1.518,00 | America |
+ 8245285 | 992115 | Borracheiro                                     | 1        | Não exigida                     | 6          | Não Informado   | America                 |
+ 8230089 | 724410 | Caldeireiro serralheiro                         | 1        | Ensino Médio Completo           | 6 / Inf.   | Não Informado   | São Marcos              |
+ 8139851 | 715505 | Carpinteiro                                     | 10       | Não exigida                    | 6          | Não Informado   | Gloria                  |
+ 8265835 | 715505 | Carpinteiro                                     | 1        | Não exigida                    | 6 / Inf.   | R$ 2.790,00     | Centro                  |
+ 8265447 | 715525 | Carpinteiro de obras                            | 5        | Não exigida                    | 6          | R$ 2.541,00     | Nova Brasília           |
+ 8279226 | 512105 | Caseiro                                        | 1        | Fundamental Completo           | 3          | R$ 2.500,00     | Aventureiro             |
+ 8168010 | 410105 | Chefe de serviço de limpeza (CNH B)            | 1        | Ensino Médio Completo           | 6          | R$ 2.000,00     | Bucarein                |
+ 8274704 | 514205 | Coletor de lixo                                | 5        | Não exigida                    | 0          | Não Informado   | Itaum                   |
+ 8278850 | 763015 | Costureira de reparação de roupas (trajes de aluguel) | 2 | Não exigida | 3/inf      | R$ 3.000,00     | Floresta                |
+ 8246013 | 763210 | Costureira em geral                            | 10       | Não exigida                   | 6          | R$ 2.188,89     | Iririú                  |
+ 8282923 | 513215 | Cozinheiro de restaurante de indústria*       | 1        | Não exigida                   | 3/inf      | R$ 2.400,00     | Comasa                  |
+ 8248806 | 951105 | Eletricista de manutenção (veículo próprio)    | 1        | Curso Técnico                 | 6          | R$ 2.291,02     | Centro                  |
+ 8248836 | 724110 | Encanador (veículo próprio)                     | 1        | Não exigida                   | 3          | R$ 2.291,02     | Centro                  |
+ 8248863 | 214215 | Engenheiro civil (edificações)                  | 1        | Superior Completo             | 3          | Não Informado   | Centro                  |
+ 8020638 | 821450 | Esmerilador de metais                            | 100      | Fundamental Incompleto        | 0          | R$ 2.732,00     | Boa Vista               |
+ 8272446 | 317110 | Estágio em Ciências da Computação (CNH B)      | 1        | Superior Incompleto           | 3/inf      | Não Informado   | Santa Catarina          |
+ 8286486 | 411005 | Estágio em direito ou administração (seg a sex das 9h às 15h) | 7 | Superior Incompleto | 0 | R$ 1.000,00 | Parque Guarani           |
+ 8114456 | 523125 | Estampador de placa automotiva, CNH AB          | 1        | Fundamental Completo          | 0          | Não Informado   | Floresta                |
+ 8265702 | 821205 | Forneiro e operador (alto-forno)                | 4        | Fundamental Completo          | 6          | R$ 1.925,00     | Zona Industrial Norte   |
+ 8198028 | 141415 | Gerente de loja (shopping) CNH B                 | 1        | Superior Incompleto           | 6          | R$ 3.800,00     | Bom Retiro              |
+ 8124920 | 622010 | Jardineiro                                     | 1        | Fundamental Completo          | 6          | R$ 1.724,15     | Nova Brasília           |
+ 8131286 | 622010 | Jardineiro                                     | 2        | Fundamental Completo          | 0          | R$ 1.541,27     | Zona Industrial Norte   |
+ 8154157 | 516320 | Limpador técnico                              | 1        | Fundamental Completo          | 3/inf      | R$ 1.623,31     | Nova Brasília           |
+
+
+
+
+
+ CÓDIGO  | CBO    | NOME DA VAGA                                          | Nº VAGAS | ESCOLARIDADE             | EXP MESES | SALÁRIO           | BAIRRO                  |
+---------|--------|------------------------------------------------------|----------|-------------------------|-----------|-------------------|-------------------------|
+ 8245292 | 914405 | Mecânico de auto em geral                             | 1        | Não exigida             | 6         | Não Informado     | America                 |
+ 8162427 | 914405 | Mecânico de automóvel                                 | 2        | Ensino Médio Completo   | 6 / Inf.  | R$ 2.000,00       | Comasa                  |
+ 8245099 | 913105 | Mecânico de manutenção de empilhadeiras              | 1        | Ensino Médio Completo   | 6         | R$ 2.972,50       | São Marcos              |
+ 8278571 | 911305 | Mecânico de manutenção trainee (CNH B)               | 1        | Curso Técnico           | 6         | R$ 3.280,13       | Bom Retiro              |
+ 7948884 | 914425 | Mecânico de veículos automotores a diesel (exceto tratores) | 2    | Fundamental Incompleto  | 6         | Não Informado     | Floresta                |
+ 8280478 | 710205 | Mestre de obras (CNH B)                              | 1        | Não exigida             | 3         | R$ 3.000,00       | Nova Brasilia           |
+ 8245842 | 724205 | Montador de estruturas metálicas (disponibilidade para viagens) | 1    | Fundamental Incompleto  | 6 / Inf.  | R$ 3.000,00       | Santa Catarina          |
+ 8273241 | 782510 | Motorista de caminhão (CNH D)                        | 2        | Ensino Médio Incompleto | 6 / Inf.  | R$ 2.141,00       | Pirabeiraba             |
+ 7932759 | 782510 | Motorista carreteiro                                 | 2        | Não exigida             | 6         | R$ 2.300,00       | Boa Vista               |
+ 8021386 | 782220 | Motorista de empilhadeira                             | 50       | Fundamental Completo    | 6         | R$ 2.630,00       | Boa Vista               |
+ 7948908 | 782410 | Motorista de ônibus urbano*                           | 12       | Fundamental Incompleto  | 6         | Não Informado     | Floresta                |
+ 8258009 | 782310 | Motorista entregador de supermercado (CNH B)        | 2        | Ensino Médio Completo   | 6         | Não Informado     | Aventureiro             |
+ 8239242 | 514325 | Oficial de manutenção predial (CNH B)                | 1        | Curso Técnico           | 6 / Inf.  | R$ 3.000,00       | Zona Industrial Norte   |
+ 8177917 | 421125 | Operador comercial (caixa) (intermitente)            | 10       | Ensino Médio Incompleto | 0         | Não Informado     | Boa Vista               |
+ 8265409 | 421125 | Operador de caixa de supermercado                      | 4        | Ensino Médio Completo   | 0         | R$ 2.115,00       | Vila Nova               |
+ 8275411 | 862150 | Operador de máquinas CNC                              | 2        | Fundamental Completo    | 3         | R$ 2.261,60       | Zona Industrial Norte   |
+ 8280134 | 784205 | Operador de processo de produção (serralheria)       | 1        | Ensino Médio Completo   | 6 / Inf.  | Não Informado     | São Marcos              |
+ 8267980 | 784205 | Operador de produção (fabricação de estrutura metálica) | 4      | Ensino Médio Completo   | 0         | Não Informado     | Jardim Sofia            |
+ 8249337 | 715115 | Operador de retro-escavadeira                         | 2        | Não exigida             | 6         | Não Informado     | Centro                  |
+ 8268851 | 773110 | Operador de serra elétrica                            | 1        | Não exigida             | 0         | R$ 2.000,00       | Santa Catarina          |
+ 8133726 | 422310 | Operador de telemarketing ativo (Tele vendas e cobrança) | 30     | Ensino Médio Completo   | 0         | R$ 1.501,20       | Gloria                  |
+ 8257907 | 422305 | Operador de telemarketing ativo TELE VENDAS*        | 3        | Ensino Médio Completo   | 6         | Não Informado     | Bucarein                |
+
+
+
+
+
+
+
+ CÓDIGO  | CBO    | NOME DA VAGA                                   | Nº VAGAS | ESCOLARIDADE               | EXP MESES | SALÁRIO        | BAIRRO                 |
+---------|--------|-----------------------------------------------|----------|----------------------------|-----------|----------------|------------------------|
+ 8067215 | 715210 | Pedreiro                                      | 2        | Não exigida                | 6         | R$ 2.541,00    | Fatima                 |
+ 8139753 | 715210 | Pedreiro                                      | 10       | Não exigida                | 6         | Não Informado  | Glória                 |
+ 8272898 | 715210 | Pedreiro                                      | 2        | Não exigida                | 6         | R$ 2.541,00    | Nova Brasilia          |
+ 8284136 | 715210 | Pedreiro                                      | 2        | Não exigida                | 6 / Inf.  | R$ 2.790,11    | Centro                 |
+ 8248871 | 715210 | Pedreiro de manutenção e conservação          | 10       | Não exigida                | 3         | R$ 2.291,02    | Centro                 |
+ 8282953 | 716610 | Pintor de obras                               | 1        | Não exigida                | 6         | R$ 2.541,00    | Fatima                 |
+ 8227517 | 724440 | Serralheiro                                   | 2        | Fundamental Incompleto     | 6         | R$ 2.540,00    | Boa Vista              |
+ 8245577 | 724440 | Serralheiro (disponibilidade para viagens)   | 1        | Fundamental Incompleto     | 6 / Inf.  | R$ 3.500,00    | Santa Catarina         |
+ 8254748 | 514320 | Servente de limpeza (seg a sex das 5h às 14h20) | 1     | Fundamental Incompleto     | 3         | R$ 1.900,00    | Nova Brasilia          |
+ 8285661 | 514320 | Servente de limpeza pós obra                   | 8        | Fundamental Completo       | 0         | R$ 1.700,00    | Floresta               |
+ 8041211 | 717020 | Servente de obras                             | 3        | Não exigida                | 0         | R$ 1.817,55    | Zona Industrial Norte  |
+ 8139837 | 717020 | Servente de obras                             | 10       | Não exigida                | 3 / inf   | Não Informado  | Gloria                 |
+ 8249138 | 717020 | Servente de obras                             | 20       | Não exigida                | 3 / inf   | R$ 1.697,23    | Centro                 |
+ 8249730 | 717020 | Servente de obras                             | 2        | Não exigida                | 6 / Inf.  | R$ 2.000,00    | Centro                 |
+ 8272928 | 717020 | Servente de obras                             | 2        | Não exigida                | 0         | R$ 1.778,00    | Nova Brasilia          |
+ 8258095 | 724315 | Soldador                                      | 10       | Fundamental Completo       | 6         | R$ 2.748,93    | Zona Industrial Norte  |
+ 8254064 | 312105 | Técnico de edificações                        | 1        | Curso Técnico              | 6         | Não Informado  | Bom Retiro             |
+ 8229999 | 721215 | Torneiro mecânico convencional                | 1        | Ensino Médio Completo      | 6 / Inf.  | Não Informado  | São Marcos             |
+ 8282678 | 521110 | Vendedor - no comércio de mercadorias*       | 3        | Ensino Médio Completo      | 3         | R$ 2.000,00    | Centro                 |
+ 8117060 | 524105 | Vendedor de serviços (veículo próprio)        | 4        | Ensino Médio Completo      | 6         | R$ 3.050,00    | Zona Industrial Norte  |
+ 8125047 | 521110 | Vendedor interno                              | 20       | Ensino Médio Completo      | 6         | R$ 1.892,00    | Anita Garibaldi        |
+ 8276823 | 521110 | Vendedor interno                              | 10       | Ensino Médio Completo      | 3         | R$ 1.892,00    | Anita Garibaldi        |
+ 8279209 | 521110 | Vendedor interno (CNH B e veículo próprio)    | 1        | Fundamental Completo       | 6         | R$ 2.500,00    | Aventureiro            |
+ 8257953 | 514120 | Zelador (industria)                           | 1        | Fundamental Completo       | 3         | Não Informado  | Zona Industrial Norte  |
+
+
+
+
+
+ CÓDIGO   | CBO     | NOME DA VAGA                                      | Nº VAGAS | ESCOLARIDADE            | EXP. MESES | SALÁRIO         | BAIRRO               |
+----------|----------|-------------------------------------------------|----------|------------------------|------------|-----------------|----------------------|
+ 8283461  | 521130   | Ajudante de farmácia**                            | 1        | Ensino Médio Completo   | 0          | R$ 2.130,31     | America              |
+ 8257362  | 414105   | Almoxarife**                                     | 1        | Ensino Médio Completo   | 0          | R$ 2.132,04     | Pirabeiraba          |
+ 8285430  | 513505   | Auxiliar de cozinha de hospital **               | 2        | Fundamental Completo    | 3          | Não Informado   | America              |
+ 8098594  | 514320   | Auxiliar de limpeza**                             | 15       | Não exigida            | 0          | R$ 1.540,51     | Anita Garibaldi      |
+ 8150134  | 784205   | Auxiliar de linha de produção**                   | 5        | Ensino Médio Incompleto | 0          | R$ 1.982,20     | America              |
+ 8199836  | 784205   | Auxiliar de linha de produção**                   | 1        | Ensino Médio Incompleto | 0          | R$ 2.024,00     | Vila Nova            |
+ 8257323  | 414215   | Conferente de carga e descarga**                   | 1        | Ensino Médio Incompleto | 0          | R$ 2.302,84     | Pirabeiraba          |
+ 8129247  | 721105   | Ferramenteiro**                                   | 1        | Curso Técnico          | 0          | R$ 4.708,00     | Vila Nova            |
+ 8257321  | 414110   | Fiel de depósito**                                | 1        | Fundamental Incompleto | 0          | R$ 2.020,00     | Pirabeiraba          |
+ 8121969  | 784205   | Operador de processo de produção**                | 35       | Fundamental Incompleto | 0          | R$ 2.013,00     | Zona Industrial Norte|
+ 8257366  | 784205   | Operador de processo de produção**                | 1        | Fundamental Incompleto | 0          | R$ 1.931,60     | Pirabeiraba          |
+ 8257333  | 422315   | Operador de telemarketing receptivo**             | 1        | Ensino Médio Completo   | 0          | R$ 1.868,40     | Pirabeiraba          |
+ 8284485  | 524105   | Vendedor de serviços financeiros ** (CNH B e veículo próprio) | 2        | Ensino Médio Completo   | 6          | R$ 3.050,00     | America              |
+ 8117058  | 517330   | Vigilante**                                      | 2        | Não exigida            | 0          | R$ 1.865,27     | Anita Garibaldi      |
+
+
+
+
+
+
