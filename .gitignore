@@ -27,6 +27,14 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .cache
 *.tsbuildinfo
 
+# ferramentas locais (tesseract portátil)
+.tools/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
 # IntelliJ based IDEs
 .idea
 

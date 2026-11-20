@@ -1,0 +1,494 @@
+{
+  "overviewStats": {
+    "totalAnuncios": 202,
+    "totalVagas": 1175,
+    "mediaVagasPorAnuncio": 5.816831683168317,
+    "vagasPCD": 55,
+    "vagasJovemAprendiz": 311,
+    "distributions": {
+      "byNeighborhood": {
+        "Boa Vista": 261,
+        "Zona Industrial Norte": 256,
+        "Pirabeiraba": 115,
+        "Aventureiro": 77,
+        "Bom Retiro": 62,
+        "Itinga": 40,
+        "Bucarein": 39,
+        "Glória": 36,
+        "Atiradores": 33,
+        "Centro": 31,
+        "Santa Catarina": 27,
+        "Floresta": 26,
+        "Fátima": 18,
+        "América": 16,
+        "Vila Nova": 16,
+        "Nova Brasília": 15,
+        "Saguaçu": 14,
+        "Outros": 13,
+        "Itaum": 11,
+        "Iririú": 10,
+        "Vila Cubatão": 9,
+        "João Costa": 9,
+        "Anita Garibaldi": 9,
+        "Costa e Silva": 7,
+        "Jardim Sofia": 7,
+        "São Marcos": 4,
+        "Rio Bonito": 4,
+        "Comasa": 3,
+        "Santo Antônio": 3,
+        "Boehmerwald": 2,
+        "Espinheiros": 1,
+        "Adhemar Garcia": 1
+      },
+      "byEducation": {
+        "Fundamental Completo": 313,
+        "Ensino Médio Completo": 231,
+        "Não exigida": 219,
+        "Ensino Médio Incompleto": 52,
+        "Curso Técnico": 24,
+        "Fundamental Incompleto": 19,
+        "Superior Completo": 3,
+        "Superior Incompleto": 3
+      }
+    }
+  },
+  "salaryStats": {
+    "totalWithSalary": 150,
+    "pctWithSalary": 74.25742574257426,
+    "min": 1518,
+    "max": 7000,
+    "avg": 2339.2786666666666,
+    "median": 2150,
+    "q1": 1985,
+    "q3": 2442.26,
+    "iqr": 457.2600000000002,
+    "stdDev": 690.1412677635082,
+    "dynamicRanges": {
+      "ranges": [
+        {
+          "label": "R$ 1.518,00 – R$ 2.431,00",
+          "count": 110,
+          "pct": 73.33
+        },
+        {
+          "label": "R$ 2.432,00 – R$ 3.345,00",
+          "count": 29,
+          "pct": 19.33
+        },
+        {
+          "label": "R$ 3.346,00 – R$ 4.259,00",
+          "count": 7,
+          "pct": 4.67
+        },
+        {
+          "label": "R$ 4.260,00 – R$ 5.173,00",
+          "count": 2,
+          "pct": 1.33
+        },
+        {
+          "label": "R$ 5.174,00 – R$ 6.087,00",
+          "count": 1,
+          "pct": 0.67
+        },
+        {
+          "label": "Acima de R$ 6.088,00",
+          "count": 1,
+          "pct": 0.67
+        }
+      ]
+    },
+    "medianCenteredRanges": {
+      "ranges": [
+        {
+          "label": "Até R$ 1.650,00",
+          "count": 3,
+          "pct": 2
+        },
+        {
+          "label": "R$ 1.651,00 – R$ 2.150,00",
+          "count": 73,
+          "pct": 48.67
+        },
+        {
+          "label": "R$ 2.151,00 – R$ 2.650,00",
+          "count": 47,
+          "pct": 31.33
+        },
+        {
+          "label": "Acima de R$ 2.650,00",
+          "count": 27,
+          "pct": 18
+        }
+      ]
+    },
+    "quartileRanges": {
+      "ranges": [
+        {
+          "label": "Até R$ 1.985,00 (25%)",
+          "count": 38,
+          "pct": 25.33
+        },
+        {
+          "label": "R$ 1.985,00 – R$ 2.150,00",
+          "count": 38,
+          "pct": 25.33
+        },
+        {
+          "label": "R$ 2.150,00 – R$ 2.442,26",
+          "count": 38,
+          "pct": 25.33
+        },
+        {
+          "label": "Acima de R$ 2.442,26",
+          "count": 36,
+          "pct": 24
+        }
+      ]
+    },
+    "topSalaries": [
+      {
+        "salario": 7000,
+        "acimaDaMedianaPct": 225.6
+      },
+      {
+        "salario": 5223.62,
+        "acimaDaMedianaPct": 143
+      },
+      {
+        "salario": 4620,
+        "acimaDaMedianaPct": 114.9
+      },
+      {
+        "salario": 4620,
+        "acimaDaMedianaPct": 114.9
+      },
+      {
+        "salario": 4162.4,
+        "acimaDaMedianaPct": 93.6
+      },
+      {
+        "salario": 4000,
+        "acimaDaMedianaPct": 86
+      },
+      {
+        "salario": 4000,
+        "acimaDaMedianaPct": 86
+      },
+      {
+        "salario": 3500,
+        "acimaDaMedianaPct": 62.8
+      },
+      {
+        "salario": 3500,
+        "acimaDaMedianaPct": 62.8
+      },
+      {
+        "salario": 3500,
+        "acimaDaMedianaPct": 62.8
+      }
+    ],
+    "outliers": {
+      "low": [],
+      "high": [
+        3500,
+        3500,
+        3500,
+        3360,
+        3150
+      ],
+      "extreme": [
+        5223.62,
+        4620,
+        4000,
+        4162.4,
+        7000,
+        4000,
+        4620
+      ]
+    }
+  },
+  "neighborhoodStats": [
+    {
+      "label": "Outros",
+      "count": 3,
+      "min": 1653.63,
+      "max": 7000,
+      "avg": 3717.88
+    },
+    {
+      "label": "Jardim Sofia",
+      "count": 6,
+      "min": 2000,
+      "max": 4620,
+      "avg": 3198.98
+    },
+    {
+      "label": "Santa Catarina",
+      "count": 4,
+      "min": 2072.85,
+      "max": 4000,
+      "avg": 2968.21
+    },
+    {
+      "label": "Centro",
+      "count": 6,
+      "min": 1731.4,
+      "max": 5223.62,
+      "avg": 2767.84
+    },
+    {
+      "label": "Glória",
+      "count": 11,
+      "min": 1600.2,
+      "max": 4162.4,
+      "avg": 2600.25
+    },
+    {
+      "label": "Itaum",
+      "count": 4,
+      "min": 2000,
+      "max": 4000,
+      "avg": 2570.0
+    },
+    {
+      "label": "Santo Antônio",
+      "count": 2,
+      "min": 2280,
+      "max": 2810,
+      "avg": 2545.0
+    },
+    {
+      "label": "João Costa",
+      "count": 5,
+      "min": 1845.36,
+      "max": 2750,
+      "avg": 2404.07
+    },
+    {
+      "label": "Adhemar Garcia",
+      "count": 1,
+      "min": 2400,
+      "max": 2400,
+      "avg": 2400.0
+    },
+    {
+      "label": "Fátima",
+      "count": 4,
+      "min": 1925,
+      "max": 2750,
+      "avg": 2337.5
+    },
+    {
+      "label": "Boa Vista",
+      "count": 8,
+      "min": 1958,
+      "max": 2679.6,
+      "avg": 2315.71
+    },
+    {
+      "label": "Bom Retiro",
+      "count": 6,
+      "min": 2122,
+      "max": 2600,
+      "avg": 2310.33
+    },
+    {
+      "label": "Aventureiro",
+      "count": 13,
+      "min": 1956.36,
+      "max": 2500,
+      "avg": 2284.92
+    },
+    {
+      "label": "Vila Nova",
+      "count": 4,
+      "min": 1925,
+      "max": 2750,
+      "avg": 2258.75
+    },
+    {
+      "label": "Rio Bonito",
+      "count": 1,
+      "min": 2224,
+      "max": 2224,
+      "avg": 2224.0
+    },
+    {
+      "label": "Itinga",
+      "count": 2,
+      "min": 2215,
+      "max": 2215,
+      "avg": 2215.0
+    },
+    {
+      "label": "Floresta",
+      "count": 5,
+      "min": 2000,
+      "max": 2800,
+      "avg": 2210.88
+    },
+    {
+      "label": "Bucarein",
+      "count": 11,
+      "min": 1956.26,
+      "max": 3150,
+      "avg": 2206.02
+    },
+    {
+      "label": "Pirabeiraba",
+      "count": 11,
+      "min": 1653.63,
+      "max": 3000,
+      "avg": 2205.4
+    },
+    {
+      "label": "Atiradores",
+      "count": 9,
+      "min": 1792,
+      "max": 2750,
+      "avg": 2129.43
+    },
+    {
+      "label": "Espinheiros",
+      "count": 1,
+      "min": 2100,
+      "max": 2100,
+      "avg": 2100.0
+    },
+    {
+      "label": "Boehmerwald",
+      "count": 1,
+      "min": 2100,
+      "max": 2100,
+      "avg": 2100.0
+    },
+    {
+      "label": "Zona Industrial Norte",
+      "count": 6,
+      "min": 1925,
+      "max": 2158,
+      "avg": 2066.96
+    },
+    {
+      "label": "América",
+      "count": 9,
+      "min": 1600,
+      "max": 2427.36,
+      "avg": 2048.6
+    },
+    {
+      "label": "Iririú",
+      "count": 4,
+      "min": 1518,
+      "max": 2500,
+      "avg": 2037.05
+    },
+    {
+      "label": "Saguaçu",
+      "count": 2,
+      "min": 1979,
+      "max": 1982.34,
+      "avg": 1980.67
+    },
+    {
+      "label": "Costa e Silva",
+      "count": 4,
+      "min": 1800,
+      "max": 1978,
+      "avg": 1914.0
+    },
+    {
+      "label": "Comasa",
+      "count": 2,
+      "min": 1653.63,
+      "max": 2140,
+      "avg": 1896.82
+    },
+    {
+      "label": "Vila Cubatão",
+      "count": 1,
+      "min": 1870,
+      "max": 1870,
+      "avg": 1870.0
+    },
+    {
+      "label": "São Marcos",
+      "count": 2,
+      "min": 1800,
+      "max": 1875,
+      "avg": 1837.5
+    },
+    {
+      "label": "Anita Garibaldi",
+      "count": 2,
+      "min": 1752.4,
+      "max": 1900,
+      "avg": 1826.2
+    }
+  ],
+  "educationStats": [
+    {
+      "label": "Superior Completo",
+      "count": 2,
+      "min": 3150,
+      "max": 5223.62,
+      "q1": 3668.4049999999997,
+      "median": 4186.8099999999995,
+      "q3": 4705.215
+    },
+    {
+      "label": "Curso Técnico",
+      "count": 6,
+      "min": 1925,
+      "max": 4620,
+      "q1": 2267.5,
+      "median": 2625,
+      "q3": 3207.5
+    },
+    {
+      "label": "Ensino Médio Completo",
+      "count": 50,
+      "min": 1518,
+      "max": 4620,
+      "q1": 2012.5,
+      "median": 2221.26,
+      "q3": 2442.26
+    },
+    {
+      "label": "Ensino Médio Incompleto",
+      "count": 11,
+      "min": 1845.36,
+      "max": 7000,
+      "q1": 2117,
+      "median": 2140,
+      "q3": 2365.33
+    },
+    {
+      "label": "Fundamental Completo",
+      "count": 36,
+      "min": 1653.63,
+      "max": 3500,
+      "q1": 1981.9675,
+      "median": 2100,
+      "q3": 2335.565
+    },
+    {
+      "label": "Não exigida",
+      "count": 40,
+      "min": 1600.2,
+      "max": 4162.4,
+      "q1": 1981.25,
+      "median": 2100,
+      "q3": 2316.84
+    },
+    {
+      "label": "Fundamental Incompleto",
+      "count": 4,
+      "min": 1875,
+      "max": 2810,
+      "q1": 1891.7775,
+      "median": 1948.685,
+      "q3": 2202.5
+    }
+  ]
+}
