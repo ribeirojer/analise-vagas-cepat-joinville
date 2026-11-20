@@ -75,6 +75,8 @@ Em `out/`:
   pronto para o frontend
 - `occupations-2026.json` — top 20 cargos (CBO) por semana e no acumulado,
   com vagas, anúncios e salário mediano/médio
+- `rows-2026.json` — dataset compacto por linha, usado pelos filtros
+  interativos do frontend (carregado sob demanda)
 - `vagas-2026.csv` — todas as linhas extraídas (auditoria)
 - `report.json` — totais do PDF x totais extraídos, avisos e diferenças
 
@@ -117,5 +119,7 @@ outliers).
 
 O script copia os JSONs semanais, o `summary-all.json`, o
 `summaries-2026.json` e o `occupations-2026.json` para
-`../frontend-vagas-cepat-joinville/data/`. O `lib/data.ts` do frontend lê os
-mapas; os arquivos semanais ficam em `data/` apenas para histórico.
+`../frontend-vagas-cepat-joinville/data/`, e o `rows-2026.json` para
+`../frontend-vagas-cepat-joinville/public/data/`. O `lib/data.ts` do frontend
+lê os mapas; os arquivos semanais ficam em `data/` apenas para histórico e o
+dataset por linha é buscado sob demanda.

@@ -75,6 +75,15 @@ class JanGoldenIntegrationTest(unittest.TestCase):
     def tearDownClass(cls):
         cls.tmp.cleanup()
 
+    def test_rows_output(self):
+        payload = json.loads((self.out / "rows-2026.json").read_text())
+        self.assertEqual(len(payload["dates"]), 4)
+        self.assertGreater(len(payload["rows"]), 100)
+        self.assertEqual(
+            payload["columns"], ["d", "s", "c", "n", "v", "e", "sal", "b"]
+        )
+        self.assertTrue(all(len(row) == 8 for row in payload["rows"]))
+
     def test_occupations_output(self):
         occupations = json.loads(
             (self.out / "occupations-2026.json").read_text()

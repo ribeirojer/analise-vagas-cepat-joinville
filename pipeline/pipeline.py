@@ -1257,6 +1257,34 @@ def write_outputs(
         json.dumps(occupations, ensure_ascii=False, indent=2) + "\n"
     )
 
+    # Dataset compacto por linha, carregado sob demanda pelo frontend para
+    # filtros e análises interativas.
+    sections = ["main", "pcd", "ja"]
+    date_index = {date: index for index, date in enumerate(dates)}
+    section_index = {name: index for index, name in enumerate(sections)}
+    row_payload = {
+        "dates": dates,
+        "sections": sections,
+        "columns": ["d", "s", "c", "n", "v", "e", "sal", "b"],
+        "rows": [
+            [
+                date_index[row.date],
+                section_index.get(row.section, 0),
+                row.cbo,
+                row.name,
+                row.vagas,
+                row.education or "",
+                row.salary,
+                row.bairro,
+            ]
+            for date in dates
+            for row in rows_by_date[date]
+        ],
+    }
+    (out_dir / "rows-2026.json").write_text(
+        json.dumps(row_payload, ensure_ascii=False, separators=(",", ":")) + "\n"
+    )
+
     with (out_dir / "vagas-2026.csv").open("w", newline="") as fh:
         writer = csv.writer(fh)
         writer.writerow(
