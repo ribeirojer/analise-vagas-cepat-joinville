@@ -21,6 +21,12 @@ cp "$OUT/summaries-2026.json" "$FRONT/data/"
 if [ -f "$OUT/occupations-2026.json" ]; then
   cp "$OUT/occupations-2026.json" "$FRONT/data/"
 fi
+if [ -f "$OUT/segments-2026.json" ]; then
+  cp "$OUT/segments-2026.json" "$FRONT/data/"
+fi
+if [ -f "$OUT/report.json" ]; then
+  cp "$OUT/report.json" "$FRONT/data/report-2026.json"
+fi
 if [ -f "$OUT/rows-2026.json" ]; then
   mkdir -p "$FRONT/public/data"
   cp "$OUT/rows-2026.json" "$FRONT/public/data/rows-2026.json"

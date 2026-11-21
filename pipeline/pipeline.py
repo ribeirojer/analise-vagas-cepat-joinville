@@ -30,7 +30,7 @@ import re
 import shutil
 import subprocess
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -735,6 +735,28 @@ class Row:
     ja_name: bool = False
 
 
+def extract_segments(text: str) -> dict[str, int]:
+    """Extrai o resumo oficial por segmento do rodapé do PDF."""
+    folded = fold(text)
+    index = folded.rfind("segmentos")
+    if index < 0:
+        return {}
+    window = folded[max(0, index - 600) : index + 900]
+    labels = {
+        "comercio": "Comércio",
+        "industria": "Indústria",
+        "servicos": "Serviços",
+        "construcao civil": "Construção Civil",
+    }
+    out: dict[str, int] = {}
+    for key, label in labels.items():
+        pattern = r"\s+".join(re.escape(part) for part in key.split())
+        match = re.search(rf"{pattern}\s+([\d.]+)", window)
+        if match:
+            out[label] = int(re.sub(r"\D", "", match.group(1)))
+    return out
+
+
 def parse_pdf(
     pdf_path: Path,
     ocr: Ocr | None,
@@ -943,6 +965,24 @@ def parse_pdf(
         if found:
             footer[label] = number(found[-1])
     report["footer"] = footer
+    report["segments"] = extract_segments(text)
+
+    duplicate_counts = Counter(
+        (row.code, row.vagas, row.salary, row.bairro) for row in rows
+    )
+    duplicate_groups = [
+        (key, count) for key, count in duplicate_counts.items() if count > 1
+    ]
+    report["duplicates"] = len(duplicate_groups)
+    report["duplicate_examples"] = [
+        {
+            "code": key[0],
+            "count": count,
+            "vagas": key[1],
+            "bairro": key[3],
+        }
+        for key, count in duplicate_groups[:10]
+    ]
     return rows, report
 
 
@@ -1283,6 +1323,22 @@ def write_outputs(
     }
     (out_dir / "rows-2026.json").write_text(
         json.dumps(row_payload, ensure_ascii=False, separators=(",", ":")) + "\n"
+    )
+
+    segment_labels = ["Comércio", "Indústria", "Serviços", "Construção Civil"]
+    segments = {date: {} for date in dates}
+    for report in reports:
+        date = report.get("date")
+        if date in segments:
+            segments[date] = report.get("segments", {})
+    accumulated_segments = {
+        label: sum(segments[date].get(label, 0) for date in dates)
+        for label in segment_labels
+    }
+    if any(accumulated_segments.values()):
+        segments["acumulado"] = accumulated_segments
+    (out_dir / "segments-2026.json").write_text(
+        json.dumps(segments, ensure_ascii=False, indent=2) + "\n"
     )
 
     with (out_dir / "vagas-2026.csv").open("w", newline="") as fh:

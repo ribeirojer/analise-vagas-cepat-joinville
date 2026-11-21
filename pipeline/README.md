@@ -77,6 +77,8 @@ Em `out/`:
   com vagas, anúncios e salário mediano/médio
 - `rows-2026.json` — dataset compacto por linha, usado pelos filtros
   interativos do frontend (carregado sob demanda)
+- `segments-2026.json` — resumo oficial por segmento (Comércio, Indústria,
+  Serviços, Construção Civil) por semana e no acumulado
 - `vagas-2026.csv` — todas as linhas extraídas (auditoria)
 - `report.json` — totais do PDF x totais extraídos, avisos e diferenças
 
@@ -118,8 +120,10 @@ outliers).
 ```
 
 O script copia os JSONs semanais, o `summary-all.json`, o
-`summaries-2026.json` e o `occupations-2026.json` para
-`../frontend-vagas-cepat-joinville/data/`, e o `rows-2026.json` para
-`../frontend-vagas-cepat-joinville/public/data/`. O `lib/data.ts` do frontend
+`summaries-2026.json`, o `occupations-2026.json` e o `segments-2026.json`
+para `../frontend-vagas-cepat-joinville/data/`, e o `rows-2026.json` para
+`../frontend-vagas-cepat-joinville/public/data/`. O `report.json` vira
+`../frontend-vagas-cepat-joinville/data/report-2026.json` para a página de
+qualidade. O `lib/data.ts` do frontend
 lê os mapas; os arquivos semanais ficam em `data/` apenas para histórico e o
 dataset por linha é buscado sob demanda.

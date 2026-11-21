@@ -75,6 +75,15 @@ class JanGoldenIntegrationTest(unittest.TestCase):
     def tearDownClass(cls):
         cls.tmp.cleanup()
 
+    def test_segments_and_quality_output(self):
+        segments = json.loads((self.out / "segments-2026.json").read_text())
+        dates = [date for date in segments if date != "acumulado"]
+        self.assertEqual(len(dates), 4)
+        report = json.loads((self.out / "report.json").read_text())
+        self.assertEqual(len(report["files"]), 4)
+        self.assertTrue(all("duplicates" in file for file in report["files"]))
+        self.assertTrue(all("segments" in file for file in report["files"]))
+
     def test_rows_output(self):
         payload = json.loads((self.out / "rows-2026.json").read_text())
         self.assertEqual(len(payload["dates"]), 4)
